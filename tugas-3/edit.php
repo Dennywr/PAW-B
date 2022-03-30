@@ -49,7 +49,7 @@
   </head>
   <body>
     <div class="container mt-4">
-      <h2 class="mb-3">Tambah Data Mahasiswa</h2>
+      <h2 class="mb-3">Ubah Data Mahasiswa</h2>
       <?php while($students = mysqli_fetch_assoc($result)): ?>
         <form method="post" action="">
           <div class="row">
